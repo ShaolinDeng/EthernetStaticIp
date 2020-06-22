@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_set_static_ip:
                 boolean success2 = IpGetUtil.setEthernetIP(MainActivity.this, "STATIC",
-                        "192.168.2.168", "255.255.255.0",
-                        "192.168.2.1", "4.4.4.4", "114.114.114.114");
+                        "192.168.3.111", "255.255.255.0",
+                        "192.168.3.1", "192.168.3.1", "114.114.114.114");
                 if (success2)
                     rebootSystem();
                 break;

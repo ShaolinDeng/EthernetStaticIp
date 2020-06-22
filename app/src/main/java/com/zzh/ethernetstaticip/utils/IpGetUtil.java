@@ -141,7 +141,7 @@ public class IpGetUtil {
                 return false;
             }
             String mInterfaceName = ifaces[0];*/
-            String mInterfaceName = "eth0";
+            String mInterfaceName = "eth1";
             // current assignment is DHCP OR STATIC
             String assignMent = mEthManager.getConfiguration(mInterfaceName).ipAssignment.name();
             // if assignMent is dhcp, no need repeat set
